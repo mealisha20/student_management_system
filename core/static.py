@@ -7,7 +7,6 @@ def serve_static(handler, filepath):
             content = f.read()
 
         content_type, _ = mimetypes.guess_type(filepath)
-
         if filepath.endswith(".html"):
             content_type = "text/html"
         if filepath.endswith(".yaml"):

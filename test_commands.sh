@@ -19,7 +19,7 @@ curl -X POST "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/ap
   }'
 
 # D. Update Student
-curl -X PUT "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students/1" \
+curl -X PUT "https://automatic-xylophone-jjvrjvxw7p65cxr-8000.app.github.dev/api/students/2" \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Alice Updated",
