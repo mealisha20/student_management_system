@@ -16,12 +16,13 @@ export async function router() {
 
   else if (path === "/students") {
     await loadView("/frontend/pages/students.html");
-    initStudentController();
+   initStudentController();
+ 
   }
 
-//   else {
-//     await loadView("/frontend/pages/404.html");
-//   }
+  // else {
+  //   await loadView("/frontend/pages/404.html");
+  // }
 }
 
 // Make links work without page reload
